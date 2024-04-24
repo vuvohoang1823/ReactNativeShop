@@ -123,7 +123,7 @@ function FavoriteScreen() {
       ) : (
         <View style={styles.emptyContainer}>
           <Image style={styles.emptyImage} source={require("../../assets/EmptyBox.png")} />
-          <Text>Bạn chưa yêu thích hoa lan nào cả</Text>
+          <Text>Bạn chưa yêu thích sản phẩm nào cả</Text>
         </View>
       )}
     </ScrollView>
